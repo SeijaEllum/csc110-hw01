@@ -52,6 +52,7 @@ def main():
     a = 1.5
     b = 7
     c = -1
+    #PEMDAS rules with multiplication/parentheses
     result1 = (3 * x - 9 * y)/(2 * a *(b - c))
     #print results
     print("Part 1: x =", x)
@@ -69,6 +70,7 @@ def main():
     
     x = 5
     y = -3
+    # ** for exponents
     result2 = (x ** 2) * (y ** 4)
     
     print("Part 2: x =", x)
@@ -84,6 +86,7 @@ def main():
     
     a = 100
     b = 13
+    #// to round to integer
     result3 = a//b
     
     print("Part 3: a =", a)
@@ -95,7 +98,7 @@ def main():
     # Part 4: Modulo
     # =============================================
     # Your code for part 4 under this line and before the print statements
-    
+    # % to get the remainder
     result4 = a%b
     print("Part 4: result =", result4)
     # End of Part 4 ----------------------
